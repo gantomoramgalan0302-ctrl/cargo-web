@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#2E7D32"/>
+
+  <!-- Sun rays -->
+  <g stroke="#FBC02D" stroke-width="2.5" stroke-linecap="round">
+    <line x1="50" y1="18" x2="50" y2="10"/>
+    <line x1="65" y1="22" x2="69" y2="15"/>
+    <line x1="76" y1="33" x2="83" y2="29"/>
+    <line x1="80" y1="48" x2="88" y2="48"/>
+    <line x1="35" y1="22" x2="31" y2="15"/>
+    <line x1="24" y1="33" x2="17" y2="29"/>
+    <line x1="20" y1="48" x2="12" y2="48"/>
+  </g>
+
+  <!-- Sun semicircle -->
+  <path d="M 23 52 A 27 27 0 0 1 77 52 Z" fill="#FBC02D"/>
+
+  <!-- Green hills -->
+  <path d="M 0 72 Q 20 52 40 65 Q 50 70 60 60 Q 75 48 100 68 L 100 100 L 0 100 Z" fill="#388E3C"/>
+  <!-- Lighter hill overlay -->
+  <path d="M 0 80 Q 25 65 45 75 Q 55 80 70 70 Q 85 62 100 75 L 100 100 L 0 100 Z" fill="#66BB6A"/>
+</svg>
